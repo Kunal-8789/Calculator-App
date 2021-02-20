@@ -106,7 +106,7 @@ class MyCalculatorAppState extends State<MyCalculatorApp> {
                 ),
                 CalcButton(
                   text: '/',
-                  // backGroundColor: 0xFFFFFFFF,
+                  backGroundColor: 0xFFFFFFFF,
                   textColor: 0xFFFF3E39,
                   textSize: 28,callback: click,
                 ),
@@ -131,7 +131,7 @@ class MyCalculatorAppState extends State<MyCalculatorApp> {
                   textColor: 0xFF000000,callback: click,
                 ),
                 CalcButton(
-                  text: 'X',
+                  text: '*',
                   backGroundColor: 0xFFFFFFFF,
                   textColor: 0xFFFF3E39,
                   textSize: 28,callback: click,
